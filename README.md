@@ -16,8 +16,9 @@
 3. Navegar até o subdiretório "api-rest"
 4. Executar o comando "yarn install"
 5. Executar o comando "docker compose up -d"
-6. Executar o comando "yarn knex migrate:latest"
-7. Executar o comando "yarn dev"
+6. Gerar na raiz um arquivo .env e utilizar os mesmos valores do arquivo .env.example
+7. Executar o comando "yarn knex migrate:latest"
+8. Executar o comando "yarn dev"
 - **O terminal deve exibir: Server is running on port 3333**
 
 ##
